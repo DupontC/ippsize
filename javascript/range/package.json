@@ -1,23 +1,14 @@
 {
-  "name": "my-vue-app",
+  "name": "range-kata",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview --port 8080",
-    "test": "vitest"
-  },
-  "dependencies": {
-    "vue": "^3.3.4"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vue/test-utils": "^2.4.1",
-    "jsdom": "^22.1.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vitest": "^0.32.0",
-    "vue-tsc": "^1.8.5"
+    "@tsconfig/node20": "^20.1.2",
+    "typescript": "^5.3.2",
+    "vitest": "^1.0.1"
   }
 }
